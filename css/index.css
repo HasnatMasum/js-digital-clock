@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #4877f7;
+    position: relative;
+}
+
+.clock-container {
+    width: 340px;
+    height: 125px;
+    background: #a7ecf8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px #6e6d6d;
+}
+
+.prog-container {
+    width: 100%;
+    background: #f1b8b8;
+}
+
+.progress {
+    width: 0;
+    height: 6px;
+    background: #f10b3d;
+}
+
+.clock,
+.time-name {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 140px 20px 70px;
+}
+
+.clock {
+    position: relative;
+}
+
+.clock h2 {
+    color: red;
+    font-size: 30px;
+}
+
+.time-format {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    font-size: 50px;
+    font-weight: normal;
+    color: #5079e9;
+}
+
+.time-name {
+    padding-top: 0;
+    font-size: 12px;
+    text-align: center;
+}
