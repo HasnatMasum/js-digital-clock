@@ -6,10 +6,10 @@ let timeFormat = document.getElementById("time-format");
 
 let progress = document.getElementById("progress");
 
-var now = new Date();
-var hours = now.getHours() % 12 || 12;
+let now = new Date();
+let hours = now.getHours() % 12 || 12;
 
-let clockStart = () => {
+const clockStart = () => {
     let date = new Date();
     let hr = date.getHours();
     let min = date.getMinutes();
